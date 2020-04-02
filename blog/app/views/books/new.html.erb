@@ -1,0 +1,30 @@
+<h1>BookIt</h1>
+<p align = "center">Free textbook finder for all of your courses</p>
+<%= form_for :isbn do |f|%>
+<p align = "center">
+    
+    
+<%= f.text_field :isbnnumber, placeholder: "Enter ISBN Number"%>
+</p>
+
+<p align = "center" >
+    <%= f.submit "Search" %>
+</p>
+
+<style>
+    body{
+        background-image: url('https://cdn.wallpapersafari.com/52/31/mQgWhS.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+
+   
+
+<% end %>
+
+
+
+ 
